@@ -1,7 +1,7 @@
 export default defineAppConfig({
   pages: [
     "pages/index/index",
-    "pages/coupon/index", // 这是拼多多优惠券页面，如果不需要可以注释
+    // "pages/coupon/index", // 这是拼多多优惠券页面，如果不需要可以注释
     "pages/index/detail/index",
     "pages/user/index",
     "pages/create/index",
@@ -26,12 +26,12 @@ export default defineAppConfig({
         selectedIconPath: "./assets/home-active.png",
       },
       // 这是拼多多优惠券页面，如果不需要可以注释下面的
-      {
-        pagePath: "pages/coupon/index",
-        text: "领券",
-        iconPath: "./assets/coupon.png",
-        selectedIconPath: "./assets/coupon-active.png",
-      },
+      // {
+      //   pagePath: "pages/coupon/index",
+      //   text: "领券",
+      //   iconPath: "./assets/coupon.png",
+      //   selectedIconPath: "./assets/coupon-active.png",
+      // },
       {
         pagePath: "pages/create/index",
         text: "发布",
